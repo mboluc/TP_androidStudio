@@ -168,7 +168,6 @@
             android:layout_height="60dp"
             android:marginTop="1000dp"
             android:id="@+id/menu"
-            android:im
             />
     </LinearLayout>
 
