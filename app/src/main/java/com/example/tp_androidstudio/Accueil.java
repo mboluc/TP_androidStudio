@@ -3,6 +3,7 @@ package com.example.tp_androidstudio;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.Scroller;
@@ -26,10 +27,11 @@ public class Accueil extends AppCompatActivity {
             this.configureToolbar();
         }
 
+        @SuppressLint("ResourceType")
         @Override
         public boolean onCreateOptionsMenu(Menu menu) {
             //2 - Inflate the menu and add it to the Toolbar
-            getMenuInflater().inflate(R.menu.activity_accueil);
+            getMenuInflater().inflate(1, menu);
             return true;
         }
 

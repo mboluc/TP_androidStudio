@@ -9,14 +9,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Toolbar
-            android:orientation="horizontal"
-            android:background="#000"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:marginTop="1000dp"
-            android:id="@+id/menu"
-            />
+
 
         <TextView
             android:layout_height="50dp"
@@ -168,6 +161,15 @@
                 android:gravity="center"/>
         </LinearLayout>
 
+        <Toolbar
+            android:orientation="horizontal"
+            android:background="#000"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:marginTop="1000dp"
+            android:id="@+id/menu"
+            android:im
+            />
     </LinearLayout>
 
 </ScrollView>
